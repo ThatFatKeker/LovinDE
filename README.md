@@ -11,7 +11,7 @@ An automated bash script designed to install and configure the **Openbox** windo
 * **AUR Helper Integration:** Automatically clones and builds `yay-bin` for AUR access.
 * **plainDE Implementation:** Installs `plainde-meta-git` and core graphical system elements.
 * **Automatic Config Handling:** Deploys clean environment configs and links the plainDE desktop panel and control center (`plainpanel`, `plaincontrolcenter`) straight to the Openbox autostart sequence.
-* **Aesthetics Included:** Bundles basic font configurations (`ttf-dejavu`, etc.) and system audio utilities (`pulseaudio`).
+* **Aesthetics Included:** Bundles basic font configurations (`ttf-dejavu`, etc.) and system audio utilities (`pipewire`).
 
 ---
 
@@ -20,7 +20,7 @@ An automated bash script designed to install and configure the **Openbox** windo
 * **Base Desktop:** `openbox`, `obconf`, `xorg-server`, `xorg-xinit`, `xterm`
 * **AUR Helper:** `yay`
 * **plainDE Core:** `plainde-meta-git`, `plaincontrolcenter-git`
-* **Theming & Media:** `lxappearance-gtk3`, `arc-gtk-theme`, `papirus-icon-theme`, `pulseaudio`, `alsa-utils`
+* **Theming & Media:** `lxappearance-gtk3`, `arc-gtk-theme`, `papirus-icon-theme`, `pipewire`, `wireplumber` `alsa-utils`
 
 ---
 
@@ -30,13 +30,13 @@ An automated bash script designed to install and configure the **Openbox** windo
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com
-cd plainDE-Setup-script
+git clone https://github.com/ThatFatKeker/LovinDE
+cd LovinDE
 ```
 
 ### 2. Make the script executable
 ```bash
-chmod +x Code.sh
+chmod +x LovinDE.sh
 ```
 
 ### 3. Run the installer
