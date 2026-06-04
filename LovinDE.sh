@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+echo "=== LovinDE ==="
+echo "Running install"
+echo "Just a moment"
+
 sudo pacman -Syu --noconfirm
 sudo pacman -S --needed --noconfirm \
     git qt5-base qt5-multimedia xorg noto-fonts-emoji polkit ttf-opensans \
