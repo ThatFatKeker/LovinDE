@@ -41,7 +41,7 @@ chmod +x LovinDE.sh
 
 ### 3. Run the installer
 ```bash
-./Code.sh
+./LovinDE.sh
 ```
 
 ### 4. Boot into your new desktop
