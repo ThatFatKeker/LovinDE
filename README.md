@@ -1,4 +1,4 @@
-# LovinDE 🚀
+# LovinDE
 A remaster to my plainDE installer script
 
 An automated bash script designed to install and configure the **Openbox** window manager and overlay it with **plainDE** components on a fresh **Arch Linux** installation. It handles system updates, dependencies, AUR helper setup, and custom UI components in one click.
